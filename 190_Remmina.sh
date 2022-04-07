@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo snap install remmina
-getsnap
+cp /var/lib/snapd/desktop/applications/*.desktop ~/.local/share/applications/
 
 #Click Add
 #In protocol use RDP
