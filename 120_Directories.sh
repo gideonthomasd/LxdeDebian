@@ -35,6 +35,8 @@ cd ..
 cd ..
 
 #########Install Directories & Files######
+
+mkdir -p ~/.local/share/applications
 mkdir -p ~/.config/picom
 cp picom.conf ~/.config/picom/picom.conf
 mkdir -p $HOME"/.config/polybar-bspwm"
