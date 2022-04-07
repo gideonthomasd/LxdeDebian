@@ -207,6 +207,7 @@ cp -r * ~/Pictures/wallpapers
 cd ..
 
 cp apple.png ~/Pictures
+cp applered.png ~/Pictures
 
 
 ######## Ending ####################################
