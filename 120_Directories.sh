@@ -27,38 +27,26 @@ cd bspwm
 chmod +x bspwmrc
 cd ..
 
-#cd polybar-bspwm
-#chmod +x *.sh
-#cd scripts
-#chmod +x *.sh
-#cd ..
-#cd ..
-
-
-
-
-
-#cp brave.png ~/Pictures
-#cp exit.png ~/Pictures
-#cp files.png ~/Pictures
-#cp settings.png ~/Pictures
-#cp startup.png ~/Pictures
+cd polybar-bspwm
+chmod +x *.sh
+cd scripts
+chmod +x *.sh
+cd ..
+cd ..
 
 #########Install Directories & Files######
 mkdir -p ~/.config/picom
 cp picom.conf ~/.config/picom/picom.conf
-
+mkdir -p $HOME"/.config/polybar-bspwm"
 mkdir -p ~/.config/dunst
 cp dunstrc ~/.config/dunst/dunstrc
 
-#mkdir -p $HOME"/.config/polybar-bspwm"
 mkdir -p $HOME"/.config/bspwm"
 
 mkdir -p ~/.config/rofi
 mkdir -p ~/.config/jgmenu
 mkdir -p ~/.config/xfce4/terminal
 mkdir -p ~/.config/lxterminal
-#mkdir -p ~/.config/herbstluftwm
 mkdir -p ~/.config/geany
 
 cd geany
@@ -79,6 +67,11 @@ cd ..
 
 
 ############# Bspwm #####################
+
+cd polybar-bspwm
+cp -r * ~/.config/polybar-bspwm
+cd ..
+
 cd bspwm
 cp -r * ~/.config/bspwm
 cd ..
@@ -146,6 +139,72 @@ cd ..
 
 sudo cp dwm.desktop /usr/share/xsessions/dwm.desktop
 cp autostart.sh ~/.local/share/dwm
+
+####### lxde Directories ###########################
+mkdir -p ~/.config/libfm
+mkdir -p ~/.config/gtk-3.0
+mkdir -p ~/.config/conky
+
+mkdir -p ~/.config/lxpanel
+mkdir -p ~/.config/lxsession
+mkdir -p ~/.config/lxsession-default-apps
+mkdir -p ~/.config/openbox
+
+mkdir -p ~/.local/share/plank/themes
+
+mkdir -p ~/.icons
+mkdir -p ~/.themes
+
+tar -xzvf icons.tar.gz
+tar -xzvf themes.tar.gz
+
+cd icons
+cp -r * ~/.icons
+cd ..
+
+cd themes
+cp -r * ~/.themes
+cd ..
+
+cd conky
+cp -r * ~/.config/conky
+cd ..
+
+cd gtk-3.0
+cp -r * ~/.config/gtk-3.0
+cd ..
+
+cd libfm
+cp -r * ~/.config/libfm
+cd ..
+
+cd lxpanel
+cp -r * ~/.config/lxpanel
+cd ..
+
+cd lxsession
+cp -r * ~/.config/lxsession
+cd ..
+
+cd lxsession-default-apps
+cp -r * ~/.config/lxsession-default-apps
+cd ..
+
+cd openbox
+cp -r * ~/.config/openbox
+cd ..
+
+cd plank
+cd themes
+cp -r * ~/.local/share/plank/themes
+cd ..
+cd ..
+
+cd wallpapers
+cp -r * ~/Pictures/wallpapers
+cd ..
+
+cp apple.png ~/Pictures
 
 
 ######## Ending ####################################
