@@ -209,6 +209,10 @@ cd ..
 cp apple.png ~/Pictures
 cp applered.png ~/Pictures
 
+cp -r Bibata-Modern-Ice ~/.themes
+cp -r Bibata-Modern-Amber ~/.themes
+cp -r Bibata-Modern-Classic ~/.themes
+
 
 ######## Ending ####################################
 cd ~/Luke/dwm-flexipatch
