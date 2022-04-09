@@ -34,6 +34,10 @@ chmod +x *.sh
 cd ..
 cd ..
 
+cd openbox
+chmod +x *.sh
+cd ..
+
 #########Install Directories & Files######
 
 mkdir -p ~/.local/share/applications
