@@ -1,10 +1,11 @@
-#@lxpanel --profile LXDE
+@lxpanel --profile LXDE
 @pcmanfm --desktop --profile LXDE
 @xscreensaver -no-splash
 plank
 picom
 #/home/phil/.config/openbox/lemon.sh
-lxpanel --profile LXDE
+#lxpanel --profile LXDE
 sxhkd -c /home/phil/.config/openbox/sxhkdrc
 #gkrellm
 conky
+/home/phil/.config/openbox/kill.sh
