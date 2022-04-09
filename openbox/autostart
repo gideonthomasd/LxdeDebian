@@ -5,6 +5,7 @@ tint2 &
 sxhkd -c ~/.config/openbox/sxhkdrc &
 plank &
 parcellite &
+conky &
 
 #~/.config/openbox/mem.sh | lemonbar -f "-adobe-courier-bold-r-normal--24-240-75-75-*-*-*-*" &
 
