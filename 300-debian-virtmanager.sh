@@ -8,3 +8,6 @@ sudo usermod -a -G libvirt phil
 
 sudo systemctl enable libvirtd
 sudo systemctl start libvirtd
+
+##Might need  '# virsh net-start default'
+#to restart default server
