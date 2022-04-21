@@ -1,7 +1,13 @@
 #!/bin/bash
 
-sudo snap install pycharm-community --edge --classic
+#sudo snap install pycharm-community --edge --classic
 #sudo snap install pycharm-community --classic
 sudo apt install -y python3-tk
 sudo apt install -y sqlite3   # pip install pysqlite3
-cp /var/lib/snapd/desktop/applications/*.desktop ~/.local/share/applications/
+
+sudo apt install -y python3-pip
+python3 -m pip install -U yt-dlp
+
+####### Install pycharm appimage #################
+
+#cp /var/lib/snapd/desktop/applications/*.desktop ~/.local/share/applications/
