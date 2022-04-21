@@ -1,7 +1,9 @@
 #!/bin/bash
 
-sudo snap install remmina
-cp /var/lib/snapd/desktop/applications/*.desktop ~/.local/share/applications/
+#sudo snap install remmina
+#cp /var/lib/snapd/desktop/applications/*.desktop ~/.local/share/applications/
+
+flatpak install flathub org.remmina.Remmina
 
 #Click Add
 #In protocol use RDP
