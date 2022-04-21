@@ -7,4 +7,4 @@ sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub
 flatpak install flathub com.github.unrud.VideoDownloader
 flatpak install flathub org.xiphos.Xiphos
 
-sudo apt install -y snapd
+#sudo apt install -y snapd
