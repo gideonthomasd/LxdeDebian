@@ -11,3 +11,9 @@ sudo systemctl start libvirtd
 
 ##Might need  '# virsh net-start default'
 #to restart default server
+
+cd kvmarch
+sudo virsh net-define br10.xml
+sudo virsh net-start br10
+sudo virsh net-autostart br10
+cd ..
