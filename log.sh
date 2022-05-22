@@ -29,9 +29,9 @@ case $chosen in
 	$option5)
 		sleep 1800 && systemctl suspend;;
     $option6)
-		systemctl reboot;;
-        #sudo reboot;;
+		#systemctl reboot;;
+        sudo reboot;;
 	$option7)
-		systemctl poweroff;;
-        #sudo poweroff;;
+		#systemctl poweroff;;
+        sudo poweroff;;
 esac
