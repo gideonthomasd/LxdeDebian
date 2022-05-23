@@ -8,6 +8,6 @@ sudo apt install -y sqlite3   # pip install pysqlite3
 sudo apt install -y python3-pip
 python3 -m pip install -U yt-dlp
 
-####### Install pycharm appimage #################
+echo "####### Install pycharm appimage #################"
 
 #cp /var/lib/snapd/desktop/applications/*.desktop ~/.local/share/applications/
