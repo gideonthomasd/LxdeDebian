@@ -21,6 +21,7 @@ picom &
 nm-applet &
 parcellite &
 #blueman-applet &
+lxappearance &
 
 $HOME/.config/polybar-bspwm/launch.sh &
 
