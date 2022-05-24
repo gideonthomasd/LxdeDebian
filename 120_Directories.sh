@@ -217,6 +217,8 @@ cp -r Bibata-Modern-Ice ~/.icons
 cp -r Bibata-Modern-Amber ~/.icons
 cp -r Bibata-Modern-Classic ~/.icons
 
+cp Xresources ~/.Xresources
+
 
 ######## Ending ####################################
 cd ~/Luke/dwm-flexipatch
